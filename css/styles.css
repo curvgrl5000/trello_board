@@ -1,0 +1,32 @@
+body {
+	color: white;
+	background: #298fca;
+	font-weight: bold;
+	padding: 1.25em 0;
+	border-radius: 4px;
+	margin: 0 0 1.5em 0;
+}
+
+.lists {
+
+}
+
+ul > h2 {
+	color: #ACA8A8;
+	margin-top: 10px;
+}
+
+ul.list-to {
+	background-color: #E3E4E6; 
+	list-style-type: none;
+	padding: 15px;
+}
+
+.card {
+	border: 2px solid 2px solid rgba(204, 204, 204, 0.75);
+    	background-color: #FFFFFF;
+    	border-radius: 4px;
+    	padding: 6px 12px;
+    	margin-bottom: 6px;
+    	color: #ACA8A8;
+}
