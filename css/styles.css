@@ -7,13 +7,120 @@ body {
 	margin: 0 0 1.5em 0;
 }
 
+.board-header {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    height: auto;
+    overflow: hidden;
+    padding: 8px 4px 8px 8px;
+    position: relative;
+    -webkit-transition: padding .1s ease-in;
+    transition: padding .1s ease-in;
+}
+
+.u-clearfix:after {
+    display: table;
+}
+
+.u-clearfix:after, pre:after {
+    content: "";
+    clear: both;
+}
+
+.board-header-btn {
+    border-radius: 3px;
+    color: #f6f6f6;
+    cursor: default;
+    float: left;
+    font-size: 9pt;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 4px 0 0;
+    overflow: hidden;
+    padding-left: 30px;
+    position: relative;
+    text-decoration: none;
+}
+
+.board-header-btn-name {
+    cursor: default;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    padding-left: 4px;
+    text-decoration: none;
+}
+
+.board-header-btn-name .board-header-btn-text {
+    padding-left: 6px;
+}
+
+.board-header-btn-text {
+    padding-right: 8px;
+}
+
+#header, .header-btn {
+    position: relative;
+    height: 40px;
+}
+
+#header {
+    background: #026aa7;
+    overflow: hidden;
+    padding: 5px;
+    z-index: 10;
+}
+
+.header-logo {
+    bottom: 0;
+    display: block;
+    left: 50%;
+    margin-left: -40px;
+    top: 5px;
+    text-align: center;
+    -webkit-transition: opacity ease-in 85ms;
+    transition: opacity ease-in 85ms;
+    z-index: 2;
+    opacity: .5;
+}
+
+.header-logo, .header-logo-default {
+    height: 30px;
+    width: 5pc;
+    position: absolute;
+}
+
+.header-logo-default {
+    background-image: url(https://d78fikflryjgj.cloudfront.net/images/50b4ebc64391dc394a38e73aed57f0e2/header-logo.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 5pc 30px;
+    right: 0;
+    top: 0;
+}
+
+.header-logo-loading {
+    background-image: url(https://d78fikflryjgj.cloudfront.net/images/d73159084f5122775d4d2fac6060ddf5/header-loading-logo.gif);
+    background-size: 18px 18px;
+    display: none;
+    height: 18px;
+    left: 2px;
+    position: absolute;
+    top: 6px;
+    width: 18px;
+}
+
 .lists {
 
 }
 
 ul > h2 {
-	color: #ACA8A8;
+	color: #4d4d4d;
 	margin-top: 10px;
+	font-size: 18px;
+    	margin: 0 0 9px;
 }
 
 ul.list-to {
